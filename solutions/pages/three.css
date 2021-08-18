@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Ubuntu Mono", monospace;
+  background-color: #1d2333;
+  color: #bfbfbf;
+  padding-left: 6%;
+  padding-top: 4%;
+}
+
+h1,
+h2,
+h3 {
+  padding: 1.5rem;
+}
+p {
+  padding: 1.5rem;
+}
+a {
+  color: #9bf6ff;
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 1.5rem;
+  flex-basis: 30%;
+}
+label {
+  display: block;
+  font-size: 1.5rem;
+  max-width: 500px;
+}
+input {
+  margin: 2rem;
+  padding: 1rem 3rem;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+button {
+  margin-top: 1.5rem;
+  margin-right: 1.5rem;
+  padding: 1rem 3rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: forestgreen;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.header {
+}
+.container {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.output {
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 50px;
+  max-width: 30px;
+  padding: 1rem 3rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 3rem;
+  color: #fff;
+  background-color: rgba(46, 156, 170, 0.055);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
